@@ -1,37 +1,67 @@
-# Python
-*.pyc
-*.pyo
-*.egg-info/
-
-# Jupyter
-.ipynb_checkpoints
-
-# IDE
-.vscode
-.idea
-*.wpr
-*.wpu
-.vs
-x64
-
-# Temp
-build
-dist
-*.local
-
-# vn.py
-.vntrader
-
-# Visual Studio intermediate files
-*.exp
-*.iobj
-*.ipdb
+# Editor temporary files
+.#*
+*\#*\#
+[#]*#
+*~
+*$
+*.bak
+*.log
+*.swp
 *.pdb
+.project
+.pydevproject
+.idea
+.settings
+.vagrant
+.noseids
+.ipynb_checkpoints
+.cache/
+.vscode/
+*.csv
+*.png
+*.jpg
+*.htm
+*.html
+*.js
+*.css
+*.js.min
+*.zip
+*.tar
+*.gz
+*.rar
+*.ttf
+input/
+output/
+logs/
+*.log
+core.*
 
-# Documents
-_build
-_static
-_templates
+# Compiled source
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.py[ocd]
+*.so
 
-# Misc
+# Python files
+build
+doc/_build
+dist
+*.egg-info
+*.eggs
+*.whl
+
+# Testing tools
+.coverage
+coverage.xml
+coverage_html_report
+
+# OS files
+.directory
+.gdb_history
 .DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
